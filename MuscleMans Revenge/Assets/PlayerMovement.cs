@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animation animator;
+    
 
     public CharacterController controller;
     public Transform cam;
